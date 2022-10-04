@@ -1,17 +1,17 @@
-import React from 'react'
-import AccordionWrapper from '../components/Accordion/AccordionWrapper'
-import AccordionTitle from '../components/Accordion/AccordionTitle'
-import AccordionItem from '../components/Accordion/AccordionItem'
-import AccordionHeader from '../components/Accordion/AccordionHeader'
-import AccordionBody from '../components/Accordion/AccordionBody'
-import FAQData from '../data/faqs.json'
+import React from "react";
+import AccordionWrapper from "../components/Accordion/AccordionWrapper";
+import AccordionTitle from "../components/Accordion/AccordionTitle";
+import AccordionItem from "../components/Accordion/AccordionItem";
+import AccordionHeader from "../components/Accordion/AccordionHeader";
+import AccordionBody from "../components/Accordion/AccordionBody";
+import FAQData from "../data/faqs.json";
 
 /*---> Component <---*/
 const AccordionCompound = () => {
   return (
     <>
       <AccordionWrapper>
-        <AccordionTitle>Frequently Asked Questions</AccordionTitle>
+        <AccordionTitle>Preguntas Frecuentes</AccordionTitle>
         {FAQData.map((item) => (
           <AccordionItem key={item.id}>
             <AccordionHeader>{item.header}</AccordionHeader>
@@ -20,7 +20,7 @@ const AccordionCompound = () => {
         ))}
       </AccordionWrapper>
     </>
-  )
-}
+  );
+};
 
-export default AccordionCompound
+export default AccordionCompound;
