@@ -15,15 +15,15 @@
 ## Tabla de contenidos
 
 - [Recorrido del proyecto](#Recorrido-del-proyecto)
-  - [Página de inicio](#Página de inicio)
-  - [Página de navegación](#Página de navegación)
-- [Demo en vivo](#Demo en vivo)
-- [Tecnología utilizada](#Tecnología utilizada)
-- [Cómo usarlo](#Cómo usarlo)
-- [Autor](#Autor)
-- [Muestra tu apoyo](#Muestra tu apoyo)
-- [Expresiones de gratitud](#Expresiones de gratitud)
-- [Licencia](#Licencia)
+  - [Página de inicio](#Página-de-inicio)
+  - [Página de navegación](#Página-de-navegación)
+- [Demo en vivo](#Demo-en-vivo)
+- [Tecnología utilizada](#Tecnología-utilizada)
+- [Cómo usarlo](#Cómo-usarlo)
+- [Autor](#-Autor)
+- [Muestra tu apoyo](#Muestra-tu-apoyo)
+- [Expresiones de gratitud](#Expresiones-de-gratitud)
+- [Licencia](#-Licencia)
 
 # Recorrido del proyecto
 
