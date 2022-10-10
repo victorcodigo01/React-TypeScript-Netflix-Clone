@@ -125,4 +125,4 @@ He construido este proyecto utilizando las siguientes tecnologías y herramienta
 - React Hooks.
 - Compound Components.
 
-- [Indice de Tabla de contenidos](#Tabla-de-contenidos)
+- [Indice de contenidos](#Tabla-de-contenidos)
