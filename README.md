@@ -65,10 +65,10 @@ Contiene enlaces útiles que los usuarios pueden necesitar.
 
 <div align="center"><a name="menu"></a>
 
-![ScreenShot](/public/images/readme/31.jpg)
-![ScreenShot](/public/images/readme/32.jpg)
-![ScreenShot](/public/images/readme/33.jpg)
-![ScreenShot](/public/images/readme/34.jpg)
+![ScreenShot](/public/images/readme/31.png)
+![ScreenShot](/public/images/readme/32.png)
+![ScreenShot](/public/images/readme/33.png)
+![ScreenShot](/public/images/readme/34.png)
 
 </div>
 
