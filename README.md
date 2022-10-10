@@ -3,7 +3,7 @@
   <img title="Netflix" src="https://fhsknightlife.com/wp-content/uploads/2020/04/uVASXqvMzyUrAPfSn9pMtxOC7s89ulzdDKBdtqCP.png" alt="NETFLIX Logo" width="400" />
   <img title="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" alt="Typescript Logo" width="100" />
   <br>
-  Netflix Clone Built Using React.JS, Typescript & Firebase
+  Netflix Clone Built Using React.JS, Typescript
 </h1>
 
 <p><font size="3">
