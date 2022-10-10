@@ -27,18 +27,18 @@
 - [Expresiones de gratitud](#acknowledgments)
 - [Licencia](#license)
 
-# Project Walk-Through
+# Recorrido del proyecto
 
-# Home Page
+# Página de inicio
 
 <div align="center"><a name="menu"></a>
 
-![ScreenShot](/public/images/readme/5.jpg)
-![ScreenShot](/public/images/readme/6.jpg)
-![ScreenShot](/public/images/readme/7.jpg)
-![ScreenShot](/public/images/readme/8.jpg)
-![ScreenShot](/public/images/readme/9.jpg)
-![ScreenShot](/public/images/readme/10.jpg)
+![ScreenShot](/public/images/readme/21.png)
+![ScreenShot](/public/images/readme/22.png)
+![ScreenShot](/public/images/readme/23.png)
+![ScreenShot](/public/images/readme/24.png)
+![ScreenShot](/public/images/readme/25.png)
+![ScreenShot](/public/images/readme/26.png)
 
 </div>
 
