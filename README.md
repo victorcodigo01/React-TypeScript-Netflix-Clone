@@ -16,8 +16,6 @@
 
 - [Recorrido del proyecto](#project-walk-through)
   - [Página de inicio](#home-page)
-  - [Página de inicio de sesión](#sign-in-page)
-  - [Página de registro](#sign-up-page)
   - [Página de navegación](#browse-page)
 - [Demo en vivo](#live-demo)
 - [Tecnología utilizada](#technology-used)
@@ -42,98 +40,28 @@
 
 </div>
 
-The Home Page consists of 5 main sections:
+La página de inicio consta de 5 secciones principales:
 
-**_1) Header, which includes:_**
+**_1) Header, que incluye:_**
 
-- Logo:
-  it redirects you to the home page when you click on it.
+- Logo Netflix:
+  Te redirige a la página de inicio cuando haces clic en él.
 
-- Sign-in button:
-  it redirects you to the sign-in page.
+- Título y subtítulo de la función:
+  Muestra las frases principales del sitio web.
 
-- Feature title & subtitle:
-  It shows the main sentences of the website.
+**_2) Jumbotron:_**
+Esta sección contiene algunas imágenes y párrafos al lado que muestran las ventajas de Netflix. Los datos de este Jumbotron provienen del archivo jumbo.json.
 
-**_2) Optform:_**
-It's a text input field and a button, It redirects you to the sign-up page once you click on the button.
+**_3) Preguntas Frecuentes:_**
+Esta sección contiene las preguntas frecuentes en forma de acordeón, cuando hace clic en cualquier parte del área gris de la pregunta, la respuesta aparece debajo y luego puede cerrar la respuesta haciendo clic nuevamente en la misma área gris de la pregunta. Los datos de estas preguntas frecuentes provienen del archivo faqs.json.
 
-**_3) Jumbotron:_**
-This section contains some images and paragraphs beside it, showing the advantages of Netflix. The data of this Jumbotron came from jumbo.json file.
+**_4) Footer:_**
+Contiene enlaces útiles que los usuarios pueden necesitar.
 
-**_4) Frequently Asked Questions:_**
-This section contains the FAQs in a form of accordion, when you click anywhere in the gray area of the question the answer appears below it, and then you can close the answer by clicking again on the same gray area of the question. The data of these FAQs came from faqs.json file.
+**_### La página responde completamente a todos los dispositivos móviles, incluso a los más pequeños.. ###_**
 
-**_5) Footer:_**
-It contains useful links users may need it.
-
-**_### The page is fully responsive to all mobile devices even the small ones. ###_**
-
-# Sign-in Page
-
- <div align="center"><a name="menu"></a>
-
-![ScreenShot](/public/images/readme/11.jpg)
-![ScreenShot](/public/images/readme/12.jpg)
-
-</div>
-
-The Sign-in Page consists of 3 main sections:
-
-**_1) Header, which includes:_**
-
-- Logo:
-  it redirects you to the home page when you click on it.
-
-**_2) Sign-in Form, which includes:_**
-
-- Email address input field.
-
-- Password input field.
-
-- Sign-in Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for authentication. It has also an error handling function.
-
-- Link to Sign-up Page: it redirects you to the sign-up page.
-
-**_3) Footer:_**
-It contains useful links users may need it.
-
-**_### The page is fully responsive to all mobile devices even the small ones. ###_**
-
-# Sign-up Page
-
-<div align="center"><a name="menu"></a>
-
-![ScreenShot](/public/images/readme/13.jpg)
-![ScreenShot](/public/images/readme/12.jpg)
-
-</div>
-
-The Sign-up Page consists of 3 main sections:
-
-**_1) Header, which includes:_**
-
-- Logo:
-  it redirects you to the home page when you click on it.
-
-**_2) Sign-up Form, which includes:_**
-
-- First Name input field.
-
-- Email address input field.
-
-- Password input field.
-
-- Sign-up Button: It has a validation option, if any field in the form is empty it will be disabled. If the form fields have any data it will be active and will send the data to the firebase database in the backend for registration. It has also an error handling function.
-
-- Link to Sign-in Page: it redirects you to the sign-in page.
-
-**_3) Footer:_**
-It contains useful links users may need it.
-
-**_### The page is fully responsive to all mobile devices even the small ones. ###_**
-
-# Browse Page
+# Página de navegación
 
 <div align="center"><a name="menu"></a>
 
@@ -144,37 +72,37 @@ It contains useful links users may need it.
 
 </div>
 
-The Browse Page consists of 5 main sections:
+La página de navegación consta de 5 secciones principales:
 
-**_1) Header, which includes:_**
+**_1) Header, que incluye:_**
 
 - Logo:
-  it redirects you to the home page whenever you click it.
+  le redirige a la página de inicio cada vez que hace clic en él.
 
-- Categories Links:
-  It shows the movies of a specific category when you click on it, for example, if you click on the films link it will be active and the browse page will show only the films. And if you click on the series link it will be active and the browse page will show only the series.
+- Categorías de enlaces:
+  Muestra las películas de una categoría específica cuando hace clic en ella, por ejemplo, si hace clic en el enlace de películas, estará activo y la página de exploración mostrará solo las películas. Y si hace clic en el enlace de la serie, estará activo y la página de exploración mostrará solo la serie.
 
-- Featured Movie Title & Description:
-  It shows the title and description of the featured movie.
+- Título y descripción de la película:
+  Muestra el título y la descripción de la película presentada.
 
-- Play Button:
-  it shows the video player to play the movie.
+- Botón de Trailer:
+  muestra el reproductor de video para reproducir el trailer de la película.
 
-**_2) Movies Slides:_**
-It's a slides shows the movies based on their genre. The genres and all movie information had been retrieved from the Firebase database.
+**_2) Diapositivas de Películas :_**
+Es una diapositiva que muestra las películas según su género. Los géneros y toda la información de la película se recuperaron una la base de datos de Firebase.
 
-**_3) Movie Card:_**
-It's an image represent the movie, when you hover over it became bigger and it will show its card feature if you click on it.
+**_3) Tarjeta de la película:_**
+Es una imagen que representa la película, cuando pasas el cursor sobre ella se hace más grande y mostrará su función de tarjeta si haces clic en ella.
 
-**_4) Card Feature:_**
-it's another section that appears under the movie slide if you click on any movie card, it contains more information about the movie like title, description, a special background represent the movie, and play button. when you click on the play button it shows the video player to play the movie. and you can close the card feature by clicking on the close icon in the top right corner of the card feature.
+**_4) Característica de la tarjeta:_**
+es otra sección que aparece debajo de la diapositiva de la película si hace clic en cualquier tarjeta de película, contiene más información sobre la película, como el título, la descripción, un fondo especial que representa la película y el botón de reproducción. cuando hace clic en el botón de reproducción, muestra el reproductor de video para reproducir la película. y puede cerrar la función de la tarjeta haciendo clic en el icono de cerrar en la esquina superior derecha de la función de la tarjeta.
 
-**_5) Video Player:_**
-it's a video player that has full controls, appears in the middle of the screen when you click on any play button, and you have to click on the play icon in the video player after it show up because it doesn't have an autoplay option currently.
-And when the video player show up the whole screen became an overlay, and only the video appears in the middle, and when you scroll up and down the video player moves with you.
-The video player should show the video of this movie which you clicked on it, but for this project purpose, it shows only one video as a sample for all movies.
+**_5) Reproductor de video:_**
+es un reproductor de video que tiene controles completos, aparece en el medio de la pantalla cuando hace clic en cualquier botón de reproducción, y debe hacer clic en el ícono de reproducción en el reproductor de video después de que aparezca porque no tiene una opción de reproducción automática corrientemente.
+Y cuando aparece el reproductor de video, toda la pantalla se convierte en una superposición, y solo aparece el video en el medio, y cuando se desplaza hacia arriba y hacia abajo, el reproductor de video se mueve con usted.
+El reproductor de video debe mostrar el video de esta película en la que hizo clic, pero para el propósito de este proyecto, muestra solo un video como muestra para todas las películas.
 
-You can close the video player anytime by clicking anywhere else on the screen.
+Puede cerrar el reproductor de video en cualquier momento haciendo clic en cualquier otro lugar de la pantalla.
 
 <div align="center"><a name="menu"></a>
 
@@ -183,134 +111,21 @@ You can close the video player anytime by clicking anywhere else on the screen.
 </div>
 
 **_6) Footer:_**
-It contains useful links users may need it.
+Contiene enlaces útiles que los usuarios pueden necesitar.
 
-**_### The page is fully responsive to all mobile devices even the small ones. ###_**
+**_### La página responde completamente a todos los dispositivos móviles, incluso a los más pequeños. ###_**
 
-# Live Demo
+# Demo en vivo
 
-**_Take a look on the live version here:_** https://react-type-script-netflix-clone.vercel.app :octocat: :heart_eyes:
+**_Echa un vistazo a la versión en vivo aquí:_** https://peliculastrailers.netlify.app :octocat: :heart_eyes:
 
-# Technology Used
+# Tecnologías usadas
 
-I have built this project using the following tools & techniques:
+He construido este proyecto utilizando las siguientes tecnologías y herramientas:
 
 - React.JS
 - Typescript.
-- Firebase.
 - Styled-Components.
 - React Router.
 - React Hooks.
 - Compound Components.
-
-# How To Use
-
-To be able to use this react app locally in a development environment you will need the following:
-
-1. You will need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) installed on your computer.
-
-2. You will need an account on [Firebase](https://firebase.com) and you should create a project on your firebase account dedicated to this Netflix project.
-
-3. You will need the "./seed.js" file (which I added in this repo) to seed your firebase backend with movies information. OR you can use your seed file with your information if you want.
-
-4. Then From your terminal, you should do the following:
-
-```cmd
-# Clone this repository
-git clone https://github.com/AhmedTohamy01/React-Netflix-Clone
-
-# Go into the repository
-cd react-netflix-clone
-
-# Install dependencies
-npm install
-
-```
-
-5. Then you will need to create the ./src/lib/firebase.prod.js file in your local repo, The content of firebase.prod.js file will be like the following:
-
-```js
-import Firebase from "firebase/app";
-import "firebase/firestore";
-import "firebase/auth";
-
-// 1) when seeding the database you'll have to uncomment this!
-// import { seedDatabase } from '../seed';
-
-const config = {
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-};
-
-const firebase = Firebase.initializeApp(config);
-// 2) when seeding the database you'll have to uncomment this!
-// seedDatabase(firebase);
-// 3) once you have populated the database (only run once!), re-comment
-// this so you don't get duplicate data
-
-export { firebase };
-```
-
-6. Then you should use your firebase project information to fill the config information in firebase.prod.js file.
-
-```js
-const config = {
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-};
-```
-
-7. Then you should seed your firebase database with the information in the seed.js file. , follow the following instructions to do this:
-
-```js
-1) Un-comment the following line:
-// import { seedDatabase } from '../seed'
-// seedDatabase(firebase);
-
-2) Save the firebase.prod.js.
-
-3) Wait 2 minutes and check your firebase database , if you found the data there then re-comment the above 2 lines.
-   If you didn't re-commet the above 2 lines after the seeding process, you will get dupliacted data in your
-   firebase database.
-
-```
-
-8. After seeding your firebase database with the movies information & reverting the Github Pages changes you can run the Netflix React App using the following command from your terminal:
-
-```
-# Run the app
-npm start
-```
-
-9. Now you can see the project in your browser as you see in the live demo link.
-   Happy Hacking!
-
-# Author
-
-👤 **Ahmed Tohamy**
-
-- Github: https://github.com/AhmedTohamy01
-- Linkedin: https://www.linkedin.com/in/ATohamy
-- Email: Ahmed-Tohamy@outlook.com
-
-# Show Your Support
-
-Give a ⭐️ if you like this project!
-
-# Acknowledgments
-
-Hat tip to everyone helped me to learn the techniques used in building this project.
-
-# License
-
-MIT License.
