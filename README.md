@@ -124,5 +124,3 @@ He construido este proyecto utilizando las siguientes tecnologías y herramienta
 - React Router.
 - React Hooks.
 - Compound Components.
-
-- [Indice de contenidos](#Tabla-de-contenidos)
