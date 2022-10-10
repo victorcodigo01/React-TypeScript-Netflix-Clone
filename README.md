@@ -18,7 +18,7 @@
   - [Página de inicio](#Página-de-inicio)
   - [Página de navegación](#Página-de-navegación)
 - [Demo en vivo](#Demo-en-vivo)
-- [Tecnologías utilizadas](#Tecnologías-utilizada)
+- [Tecnologías utilizadas](#Tecnologías-utilizadas)
 
 # Recorrido del proyecto
 
