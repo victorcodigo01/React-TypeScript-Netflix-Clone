@@ -18,12 +18,7 @@
   - [Página de inicio](#Página-de-inicio)
   - [Página de navegación](#Página-de-navegación)
 - [Demo en vivo](#Demo-en-vivo)
-- [Tecnología utilizada](#Tecnología-utilizada)
-- [Cómo usarlo](#Cómo-usarlo)
-- [Autor](#-Autor)
-- [Muestra tu apoyo](#Muestra-tu-apoyo)
-- [Expresiones de gratitud](#Expresiones-de-gratitud)
-- [Licencia](#-Licencia)
+- [Tecnologías utilizadas](#Tecnologías-utilizada)
 
 # Recorrido del proyecto
 
@@ -119,7 +114,7 @@ Contiene enlaces útiles que los usuarios pueden necesitar.
 
 **_Echa un vistazo a la versión en vivo aquí:_** https://peliculastrailers.netlify.app :octocat: :heart_eyes:
 
-# Tecnologías usadas
+# Tecnologías utilizadas
 
 He construido este proyecto utilizando las siguientes tecnologías y herramientas:
 
