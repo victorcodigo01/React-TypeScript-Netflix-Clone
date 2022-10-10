@@ -14,16 +14,16 @@
 
 ## Tabla de contenidos
 
-- [Recorrido del proyecto](#project-walk-through)
-  - [Página de inicio](#home-page)
-  - [Página de navegación](#browse-page)
-- [Demo en vivo](#live-demo)
-- [Tecnología utilizada](#technology-used)
-- [Cómo usarlo](#how-to-use)
-- [Autor](#author)
-- [Muestra tu apoyo](#show-your-support)
-- [Expresiones de gratitud](#acknowledgments)
-- [Licencia](#license)
+- [Recorrido del proyecto](#Recorrido-del-proyecto)
+  - [Página de inicio](#Página de inicio)
+  - [Página de navegación](#Página de navegación)
+- [Demo en vivo](#Demo en vivo)
+- [Tecnología utilizada](#Tecnología utilizada)
+- [Cómo usarlo](#Cómo usarlo)
+- [Autor](#Autor)
+- [Muestra tu apoyo](#Muestra tu apoyo)
+- [Expresiones de gratitud](#Expresiones de gratitud)
+- [Licencia](#Licencia)
 
 # Recorrido del proyecto
 
