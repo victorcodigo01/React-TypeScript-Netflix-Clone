@@ -9,34 +9,34 @@ import FooterLink from "../components/Footer/FooterLink";
 const FooterCompound = () => {
   return (
     <FooterWrapper>
-      <FooterTitle>Questions? Contact us.</FooterTitle>
+      <FooterTitle>¿Preguntas? Contáctanos.</FooterTitle>
       <FooterRow>
         <FooterColumn>
           <FooterLink>FAQ</FooterLink>
-          <FooterLink>Investor Relations</FooterLink>
-          <FooterLink>Privacy</FooterLink>
-          <FooterLink>Speed Test</FooterLink>
+          <FooterLink>Relaciones con Inversoroes</FooterLink>
+          <FooterLink>Privacidad</FooterLink>
+          <FooterLink>Test rápido</FooterLink>
         </FooterColumn>
         <FooterColumn>
-          <FooterLink>Help Center</FooterLink>
-          <FooterLink>Jobs</FooterLink>
-          <FooterLink>Cookie Preferences</FooterLink>
-          <FooterLink>Legal Notices</FooterLink>
+          <FooterLink>Centro de ayuda</FooterLink>
+          <FooterLink>Trabajos</FooterLink>
+          <FooterLink>Preferencias de Cookies </FooterLink>
+          <FooterLink>Notas legales</FooterLink>
         </FooterColumn>
         <FooterColumn>
-          <FooterLink>Account</FooterLink>
-          <FooterLink>Ways to Watch</FooterLink>
-          <FooterLink>Corporate Information</FooterLink>
-          <FooterLink>Netflix Originals</FooterLink>
+          <FooterLink>Cuenta</FooterLink>
+          <FooterLink>Maneras de Visualizar</FooterLink>
+          <FooterLink>Información Corporativa</FooterLink>
+          <FooterLink>Netflix Originales</FooterLink>
         </FooterColumn>
         <FooterColumn>
-          <FooterLink>Media Center</FooterLink>
-          <FooterLink>Terms of Use</FooterLink>
-          <FooterLink>Contact Us</FooterLink>
+          <FooterLink>Centro de Medios</FooterLink>
+          <FooterLink>Términos de Uso</FooterLink>
+          <FooterLink>Contáctanos</FooterLink>
         </FooterColumn>
       </FooterRow>
     </FooterWrapper>
   );
-}
+};
 
 export default FooterCompound;

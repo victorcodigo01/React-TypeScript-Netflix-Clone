@@ -1,112 +1,117 @@
-import React, { useState, useEffect } from 'react'
-import BrowseHeaderWrapper from '../components/Header/BrowseHeaderWrapper'
-import BrowseNavbar from '../components/Header/BrowseNavbar'
-import Logo from '../components/Header/Logo'
-import FeatureWrapperBrowse from '../components/Feature/FeatureWrapperBrowse'
-import FeatureTitleBrowse from '../components/Feature/FeatureTitleBrowse'
-import FeatureSubTitleBrowse from '../components/Feature/FeatureSubTitleBrowse'
-import PlayButton from '../components/Header/PlayButton'
-import HeaderLink from '../components/Header/HeaderLink'
-import AllSlidesWrapper from '../components/Movies/AllSlidesWrapper'
-import SlideWrapper from '../components/Movies/SlideWrapper'
-import SlideTitle from '../components/Movies/SlideTitle'
-import AllCardsWrapper from '../components/Movies/AllCardsWrapper'
-import CardWrapper from '../components/Movies/CardWrapper'
-import CardImage from '../components/Movies/CardImage'
-import CardTitle from '../components/Movies/CardTitle'
-import CardDescription from '../components/Movies/CardDescription'
-import CardFeatureWrapper from '../components/Movies/CardFeatureWrapper'
-import CardFeatureClose from '../components/Movies/CardFeatureClose'
-import PlayerVideo from '../components/Movies/PlayerVideo'
-import PlayerOverlay from '../components/Movies/PlayerOverlay'
-import FooterCompound from '../compounds/FooterCompound'
-import Loader from 'react-loader-spinner'
-import SpinnerWrapper from '../components/Movies/SpinnerWrapper'
-import seriesData from '../data/series.json'
-import filmsData from '../data/films.json'
+import React, { useState, useEffect } from "react";
+import BrowseHeaderWrapper from "../components/Header/BrowseHeaderWrapper";
+import BrowseNavbar from "../components/Header/BrowseNavbar";
+import Logo from "../components/Header/Logo";
+import FeatureWrapperBrowse from "../components/Feature/FeatureWrapperBrowse";
+import FeatureTitleBrowse from "../components/Feature/FeatureTitleBrowse";
+import FeatureSubTitleBrowse from "../components/Feature/FeatureSubTitleBrowse";
+import PlayButton from "../components/Header/PlayButton";
+import HeaderLink from "../components/Header/HeaderLink";
+import AllSlidesWrapper from "../components/Movies/AllSlidesWrapper";
+import SlideWrapper from "../components/Movies/SlideWrapper";
+import SlideTitle from "../components/Movies/SlideTitle";
+import AllCardsWrapper from "../components/Movies/AllCardsWrapper";
+import CardWrapper from "../components/Movies/CardWrapper";
+import CardImage from "../components/Movies/CardImage";
+import CardTitle from "../components/Movies/CardTitle";
+import CardDescription from "../components/Movies/CardDescription";
+import CardFeatureWrapper from "../components/Movies/CardFeatureWrapper";
+import CardFeatureClose from "../components/Movies/CardFeatureClose";
+import PlayerVideo from "../components/Movies/PlayerVideo";
+import PlayerOverlay from "../components/Movies/PlayerOverlay";
+import FooterCompound from "../compounds/FooterCompound";
+import Loader from "react-loader-spinner";
+import SpinnerWrapper from "../components/Movies/SpinnerWrapper";
+import seriesData from "../data/series.json";
+import filmsData from "../data/films.json";
 
 /*---> Component <---*/
+let BatmanBegin = {
+  title: "Batman Begins",
+  src: "https://www.youtube.com/embed/JIGLjChePqk",
+};
+
 const BrowsePage = () => {
-  let series: MovieType[] = seriesData
+  let series: MovieType[] = seriesData;
   series = [
     {
-      title: 'Documentaries',
-      data: series.filter((item) => item.genre === 'documentaries'),
+      title: "Documentales",
+      data: series.filter((item) => item.genre === "Documentales"),
     },
     {
-      title: 'Comedies',
-      data: series.filter((item) => item.genre === 'comedies'),
+      title: "Comedia",
+      data: series.filter((item) => item.genre === "Comedia"),
     },
     {
-      title: 'Children',
-      data: series.filter((item) => item.genre === 'children'),
+      title: "Niños",
+      data: series.filter((item) => item.genre === "Niños"),
     },
     {
-      title: 'Crime',
-      data: series.filter((item) => item.genre === 'crime'),
+      title: "Crimen",
+      data: series.filter((item) => item.genre === "Crimen"),
     },
     {
-      title: 'Feel-Good',
-      data: series.filter((item) => item.genre === 'feel-good'),
+      title: "Sentirse-bien",
+      data: series.filter((item) => item.genre === "Sentirse-bien"),
     },
-  ]
-  console.log('series2', series)
+  ];
+  console.log("series2", series);
 
-  let films: MovieType[] = filmsData
+  let films: MovieType[] = filmsData;
   films = [
     {
-      title: 'Drama',
-      data: films.filter((item) => item.genre === 'drama'),
+      title: "Drama",
+      data: films.filter((item) => item.genre === "drama"),
     },
     {
-      title: 'Thriller',
-      data: films.filter((item) => item.genre === 'thriller'),
+      title: "Thriller",
+      data: films.filter((item) => item.genre === "thriller"),
     },
     {
-      title: 'Children',
-      data: films.filter((item) => item.genre === 'children'),
+      title: "Niños",
+      data: films.filter((item) => item.genre === "Niños"),
     },
     {
-      title: 'Suspense',
-      data: films.filter((item) => item.genre === 'suspense'),
+      title: "Suspense",
+      data: films.filter((item) => item.genre === "suspense"),
     },
     {
-      title: 'Romance',
-      data: films.filter((item) => item.genre === 'romance'),
+      title: "Romance",
+      data: films.filter((item) => item.genre === "romance"),
     },
-  ]
+  ];
 
-  const [category, setCategory] = useState('films')
-  const currentCategory = category === 'films' ? films : series
-  const [showCardFeature, setShowCardFeature] = useState(false)
-  const [activeItem, setActiveItem] = useState<MovieType>({})
-  const [showPlayer, setShowPlayer] = useState(false)
-  const [loading, setLoading] = useState(true)
+  const [category, setCategory] = useState("films");
+  const currentCategory = category === "films" ? films : series;
+  const [showCardFeature, setShowCardFeature] = useState(false);
+  const [activeItem, setActiveItem] = useState<MovieType>({});
+  const [showPlayer, setShowPlayer] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const handleFilmsClick = () => {
-    setCategory('films')
-    const element = document.getElementById('movies')
-    element?.scrollIntoView()
-  }
+    setCategory("films");
+    const element = document.getElementById("movies");
+    element?.scrollIntoView();
+  };
 
   const handleSeriesClick = () => {
-    setCategory('series')
-    const element = document.getElementById('movies')
-    element?.scrollIntoView()
-  }
+    setCategory("series");
+    const element = document.getElementById("movies");
+    element?.scrollIntoView();
+  };
 
   useEffect(() => {
     if (series[0].data!.length > 1) {
-      setLoading(false)
+      setLoading(false);
     }
-  }, [series])
+  }, [series]);
 
   if (loading) {
     return (
       <SpinnerWrapper>
-        <Loader type='ThreeDots' color='white' height={100} width={100} />
+        <Loader type="ThreeDots" color="white" height={100} width={100} />
       </SpinnerWrapper>
-    )
+    );
   }
 
   return (
@@ -114,28 +119,41 @@ const BrowsePage = () => {
       <BrowseHeaderWrapper>
         <BrowseNavbar>
           <Logo />
-          <HeaderLink onClick={handleFilmsClick}>Films</HeaderLink>
+          <HeaderLink onClick={handleFilmsClick}>Películas</HeaderLink>
           <HeaderLink onClick={handleSeriesClick}>Series</HeaderLink>
         </BrowseNavbar>
         <FeatureWrapperBrowse>
-          <FeatureTitleBrowse>Watch Patman Now</FeatureTitleBrowse>
+          <FeatureTitleBrowse>Batman Begins</FeatureTitleBrowse>
           <FeatureSubTitleBrowse>
-            Forever alone in a crowd, failed comedian Arthur Fleck seeks
-            connection as he walks the streets of Gotham City. Arthur wears two
-            masks, the one he paints for his day job as a clown, and the guise
-            he projects in a futile attempt to feel like he is part of the world
-            around him.
+            Bruce Wayne vive obsesionado con el recuerdo de la muerte de sus
+            padres. Atormentado, se va de Gotham y encuentra a un extraño
+            personaje que lo entrena en todas las disciplinas físicas y mentales
+            que le servirán para combatir el Mal.
           </FeatureSubTitleBrowse>
-          <PlayButton onClick={() => setShowPlayer(true)}>Play</PlayButton>
-          {showPlayer ? (
+          <PlayButton
+            onClick={() => {
+              setActiveItem(BatmanBegin);
+              setShowPlayer(true);
+            }}
+          >
+            Trailer
+          </PlayButton>
+          {showPlayer && activeItem?.title == "Batman Begins" ? (
             <PlayerOverlay onClick={() => setShowPlayer(false)}>
-              <PlayerVideo src='./videos/video.mp4' type='video/mp4' />
+              <iframe
+                style={{ margin: "auto" }}
+                width="1361"
+                height="480"
+                src={activeItem.src + "?autoplay=1"}
+                title={activeItem.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
             </PlayerOverlay>
           ) : null}
         </FeatureWrapperBrowse>
       </BrowseHeaderWrapper>
 
-      <AllSlidesWrapper id='movies'>
+      <AllSlidesWrapper id="movies">
         {currentCategory.map((slideItem) => (
           <SlideWrapper key={`${category}-${slideItem.title?.toLowerCase()}`}>
             <SlideTitle>{slideItem.title!}</SlideTitle>
@@ -144,8 +162,8 @@ const BrowsePage = () => {
                 <CardWrapper key={cardItem.docId!}>
                   <CardImage
                     onClick={() => {
-                      setShowCardFeature(true)
-                      setActiveItem(cardItem)
+                      setShowCardFeature(true);
+                      setActiveItem(cardItem);
                     }}
                     src={`../images/${category}/${cardItem.genre}/${cardItem.slug}/small.jpg`}
                   />
@@ -153,7 +171,8 @@ const BrowsePage = () => {
               ))}
             </AllCardsWrapper>
             {showCardFeature &&
-            slideItem.title?.toLowerCase() === activeItem.genre ? (
+            slideItem.title?.toLowerCase() ===
+              activeItem.genre?.toLowerCase() ? (
               <CardFeatureWrapper
                 style={{
                   backgroundImage: `url(../images/${category}/${activeItem.genre}/${activeItem.slug}/large.jpg)`,
@@ -163,11 +182,18 @@ const BrowsePage = () => {
                 <CardDescription>{activeItem.description!}</CardDescription>
                 <CardFeatureClose onClick={() => setShowCardFeature(false)} />
                 <PlayButton onClick={() => setShowPlayer(true)}>
-                  Play
+                  Trailer
                 </PlayButton>
                 {showPlayer ? (
                   <PlayerOverlay onClick={() => setShowPlayer(false)}>
-                    <PlayerVideo src='../videos/video.mp4' type='video/mp4' />
+                    <iframe
+                      style={{ margin: "auto" }}
+                      width="1361"
+                      height="480"
+                      src={activeItem.src + "?autoplay=1"}
+                      title={activeItem.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
                   </PlayerOverlay>
                 ) : null}
               </CardFeatureWrapper>
@@ -177,19 +203,20 @@ const BrowsePage = () => {
       </AllSlidesWrapper>
       <FooterCompound />
     </>
-  )
-}
+  );
+};
 
-export default BrowsePage
+export default BrowsePage;
 
 /*---> Interfaces <---*/
 interface MovieType {
-  description?: string
-  docId?: string
-  genre?: string
-  id?: string
-  maturity?: string
-  slug?: string
-  title?: string
-  data?: MovieType[]
+  description?: string;
+  docId?: string;
+  genre?: string;
+  id?: string;
+  maturity?: string;
+  slug?: string;
+  title?: string;
+  data?: MovieType[];
+  src?: string;
 }

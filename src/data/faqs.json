@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "header": "¿Qué es Netflix ?",
-    "body": "¡Netflix es un servicio de transmisión que ofrece una amplia variedad de programas de TV, películas, anime, documentales y más galardonados, en miles de dispositivos conectados a Internet.\n\nPuedes ver todo lo que quieras, cuando quieras, sin un solo anuncio, todo por un precio mensual bajo. ¡Siempre hay algo nuevo por descubrir, y cada semana se agregan nuevos programas de TV y películas!"
+    "header": "¿Qué es Netflix?",
+    "body": "Netflix es un servicio de transmisión que ofrece una amplia variedad de programas de TV, películas, anime, documentales y más galardonados, en miles de dispositivos conectados a Internet. Puedes ver todo lo que quieras, cuando quieras, sin un solo anuncio, todo por un precio mensual bajo. ¡Siempre hay algo nuevo por descubrir, y cada semana se agregan nuevos programas de TV y películas!"
   },
   {
     "id": 2,
     "header": "¿Cuanto cuesta?",
-    "body": "Mire Netflix en su teléfono inteligente, tableta, televisor inteligente, computadora portátil o dispositivo de transmisión, todo por una tarifa mensual fija baja. Los planes comienzan desde  5.99 € al mes. Sin costes extra ni contratos."
+    "body": "Mira Netflix en tu smartphone, tableta, smartTV , ordenador portátil o dispositivo de transmisión, todo por una tarifa mensual fija baja. Los planes comienzan desde  5.99 € al mes. Sin costes extra ni contratos."
   },
   {
     "id": 3,
-    "header": "Where can I watch ?",
-    "body": "Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.\n\nYou can also download your favourite programmes with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere."
+    "header": "¿Donde lo puedo ver?",
+    "body": "Desde cualquier lugar, en cualquier momento, en cantidad ilimitada de dispositivos. Inicia sesión con su cuenta de Netflix para ver instantáneamente en la web en netflix.com desde tu ordenador o en cualquier dispositivo conectado a Internet que tenga la aplicación de Netflix, incluidos televisores inteligentes, teléfonos inteligentes, tabletas, reproductores de transmisión de medios y consolas de juegos. También puedes descargar tus series favoritas con la aplicación iOS, Android o Windows 10. Usa las descargas para verlo mientras estás en movimiento y sin conexión a Internet. Llévate Netflix contigo a cualquier lugar."
   },
   {
     "id": 4,
-    "header": "How do I cancel ?",
-    "body": "Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account at any time."
+    "header": "¿Cómo lo cancelo?",
+    "body": "Netflix es flexible. No hay contratos ni compromisos. Puedes cancelar fácilmente tu cuenta online con dos clicks. No hay tarifas de cancelación: inicia o cancela su cuenta en cualquier momento."
   },
   {
     "id": 5,
-    "header": "What can I watch ?",
-    "body": "Netflix has an extensive library of feature films, documentaries, TV programmes, anime, award-winning Netflix originals, and more. Watch as much as you want, any time you want."
+    "header": "¿Qué puedo ver?",
+    "body": "Netflix tiene una amplia videotecta de películas, documentales, programas de televisión, anime, series originales de Netflix y más. Mira todo lo que quieras, cuando quieras."
   }
 ]

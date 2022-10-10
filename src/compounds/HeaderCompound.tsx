@@ -16,7 +16,7 @@ const HeaderCompound = ({ children }: PropsType) => {
           <Logo />
         </Navbar>
         <FeatureWrapper>
-          <FeatureTitle>Películas ilimitadas, TV series y más.</FeatureTitle>
+          <FeatureTitle>Películas ilimitadas, series de TV y más.</FeatureTitle>
           <Warning>Versión NO official realizada por Victor Martin</Warning>
         </FeatureWrapper>
         {children}
