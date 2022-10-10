@@ -3,29 +3,29 @@
   <img title="Netflix" src="https://fhsknightlife.com/wp-content/uploads/2020/04/uVASXqvMzyUrAPfSn9pMtxOC7s89ulzdDKBdtqCP.png" alt="NETFLIX Logo" width="400" />
   <img title="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" alt="Typescript Logo" width="100" />
   <br>
-  Netflix Clone Built Using React.JS, Typescript
+  Clon de Netflix creado con React.JS & Typescript
 </h1>
 
 <p><font size="3">
-  This is a clone of Netflix website built using <strong><em>React.JS & Typescript</em></strong> as a Front-end & <strong><em>Firebase</em></strong> as Back-end. It's not a replica, and it     doesn't have all the features of Netflix website. it's a similar version of Netflix with my own design touch, showing my abilities in React.JS to build something advanced       like Netflix. It contains the home page, sign-in page, sign-up page, browse page, and movie player.
+  Este es un clon del sitio web de Netflix construido usando <strong><em>React.JS & Typescript</em></strong> No es una réplica y no tiene todas las características del sitio web de Netflix. es una versión similar de Netflix con mi propio toque de diseño, mostrando mis habilidades en React.JS para construir una web avanzada como Netflix. Contiene la página de inicio, la página de inicio de sesión, la página de registro, la página de exploración, además del reproductor de películas y series.
   <br><br> 
-  <strong><em>Take a look at the live version here:</em></strong> https://react-type-script-netflix-clone.vercel.app :octocat: :heart_eyes:
+  <strong><em>Echa un vistazo a la versión usable aquí:</em></strong> https://peliculastrailers.netlify.app :octocat: :heart_eyes:
 </p>
 
-## Table of Contents
+## Tabla de contenidos
 
-- [Project Walk-Through](#project-walk-through)
-  - [Home Page](#home-page)
-  - [Sign-in Page](#sign-in-page)
-  - [Sign-up Page](#sign-up-page)
-  - [Browse Page](#browse-page)
-- [Live Demo](#live-demo)
-- [Technology Used](#technology-used)
-- [How To Use](#how-to-use)
-- [Author](#author)
-- [Show Your Support](#show-your-support)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
+- [Recorrido del proyecto](#project-walk-through)
+  - [Página de inicio](#home-page)
+  - [Página de inicio de sesión](#sign-in-page)
+  - [Página de registro](#sign-up-page)
+  - [Página de navegación](#browse-page)
+- [Demo en vivo](#live-demo)
+- [Tecnología utilizada](#technology-used)
+- [Cómo usarlo](#how-to-use)
+- [Autor](#author)
+- [Muestra tu apoyo](#show-your-support)
+- [Expresiones de gratitud](#acknowledgments)
+- [Licencia](#license)
 
 # Project Walk-Through
 
