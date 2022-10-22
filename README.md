@@ -7,7 +7,7 @@
 </h1>
 
 <p><font size="3">
-  Este es un clon del sitio web de Netflix construido usando <strong><em>React.JS & Typescript</em></strong> No es una réplica y no tiene todas las características del sitio web de Netflix. es una versión similar de Netflix con mi propio toque de diseño, mostrando mis habilidades en React.JS para construir una web avanzada como Netflix. Contiene la página de inicio, la página de inicio de sesión, la página de registro, la página de exploración, además del reproductor de películas y series.
+  Este es un clon del sitio web de Netflix construido usando <strong><em>React.JS & Typescript</em></strong> No es una réplica y no tiene todas las características del sitio web de Netflix. es una versión similar de Netflix con mi propio toque de diseño, mostrando mis habilidades en React.JS para construir una web avanzada como Netflix. Contiene la página de inicio, la página de exploración, además del reproductor de trailers de películas y series.
   <br><br> 
   <strong><em>Echa un vistazo a la versión usable aquí:</em></strong> https://peliculastrailers.netlify.app :octocat: :heart_eyes:
 </p>
@@ -54,7 +54,7 @@ Esta sección contiene las preguntas frecuentes en forma de acordeón, cuando ha
 **_4) Footer:_**
 Contiene enlaces útiles que los usuarios pueden necesitar.
 
-**_### La página responde completamente a todos los dispositivos móviles, incluso a los más pequeños.. ###_**
+**_ La página responde completamente a todos los dispositivos móviles, incluso a los más pequeños.. _**
 
 # Página de navegación
 
@@ -108,7 +108,7 @@ Puede cerrar el reproductor de video en cualquier momento haciendo clic en cualq
 **_6) Footer:_**
 Contiene enlaces útiles que los usuarios pueden necesitar.
 
-**_### La página responde completamente a todos los dispositivos móviles, incluso a los más pequeños. ###_**
+**_ La página responde completamente a todos los dispositivos móviles, incluso a los más pequeños. _**
 
 # Demo en vivo
 
