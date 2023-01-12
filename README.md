@@ -112,7 +112,7 @@ Contiene enlaces útiles que los usuarios pueden necesitar.
 
 # Demo en vivo
 
-**_Echa un vistazo a la versión en vivo aquí:_** https://peliculastrailers.netlify.app :octocat: :heart_eyes:
+**_Echa un vistazo a la versión en vivo aquí:_** https://trailermovies.netlify.app/ :octocat: :heart_eyes:
 
 # Tecnologías utilizadas
 
